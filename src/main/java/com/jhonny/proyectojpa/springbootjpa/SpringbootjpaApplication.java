@@ -26,7 +26,7 @@ public class SpringbootjpaApplication implements CommandLineRunner{
 
 	@Override
 	public void run(String... args) throws Exception {
-		update();
+		create();
 	}
 	@Transactional(readOnly = true)
 	public	void	whereIn(){
